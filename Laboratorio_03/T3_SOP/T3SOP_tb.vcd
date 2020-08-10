@@ -1,0 +1,138 @@
+$date
+	Sun Aug 02 17:05:09 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module T3SOP $end
+$var wire 1 ! M1 $end
+$var wire 1 " M2 $end
+$var wire 1 # M3 $end
+$var wire 1 $ M4 $end
+$var wire 1 % M5 $end
+$var wire 1 & M6 $end
+$var wire 1 ' M7 $end
+$var wire 1 ( Y $end
+$var wire 1 ) notA $end
+$var wire 1 * notB $end
+$var wire 1 + notC $end
+$var wire 1 , notD $end
+$var reg 1 - a $end
+$var reg 1 . b $end
+$var reg 1 / c $end
+$var reg 1 0 d $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+0/
+0.
+0-
+1,
+1+
+1*
+1)
+1(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#1
+0!
+1%
+0)
+1-
+#2
+0(
+0*
+0%
+1)
+1.
+0-
+#3
+1(
+1#
+0+
+1*
+1/
+0.
+#4
+1"
+0,
+0#
+1+
+10
+0/
+#5
+0"
+1$
+0+
+1/
+#6
+0(
+0$
+1+
+0)
+0/
+1-
+#7
+0*
+1)
+1.
+0-
+#8
+1,
+0)
+00
+1-
+#9
+0+
+1)
+1/
+0-
+#10
+1(
+1&
+1*
+0)
+0.
+1-
+#11
+0(
+0,
+0*
+0&
+1)
+10
+1.
+0-
+#12
+1*
+0)
+0.
+1-
+#13
+1+
+0*
+0/
+1.
+#14
+1(
+1'
+1,
+0+
+00
+1/
+#15
+0(
+0'
+0,
+10

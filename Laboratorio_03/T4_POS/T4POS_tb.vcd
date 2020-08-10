@@ -1,0 +1,146 @@
+$date
+	Sun Aug 02 17:04:40 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module T4POS $end
+$var wire 1 ! M1 $end
+$var wire 1 " M2 $end
+$var wire 1 # M3 $end
+$var wire 1 $ M4 $end
+$var wire 1 % M5 $end
+$var wire 1 & M6 $end
+$var wire 1 ' M7 $end
+$var wire 1 ( M8 $end
+$var wire 1 ) M9 $end
+$var wire 1 * Y $end
+$var wire 1 + notA $end
+$var wire 1 , notB $end
+$var wire 1 - notC $end
+$var wire 1 . notD $end
+$var reg 1 / a $end
+$var reg 1 0 b $end
+$var reg 1 1 c $end
+$var reg 1 2 d $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+01
+00
+0/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+1"
+1!
+$end
+#1
+0+
+1/
+#2
+0*
+0"
+0,
+1+
+10
+0/
+#3
+1*
+1"
+0-
+1,
+11
+00
+#4
+0*
+0!
+0.
+1-
+12
+01
+#5
+1*
+1!
+0-
+11
+#6
+0*
+0$
+1-
+0+
+01
+1/
+#7
+0#
+1$
+0,
+1+
+10
+0/
+#8
+0&
+1.
+1#
+0+
+02
+1/
+#9
+1*
+1&
+0-
+1+
+11
+0/
+#10
+1,
+0+
+00
+1/
+#11
+0.
+0,
+1+
+12
+10
+0/
+#12
+0*
+0%
+1,
+0+
+00
+1/
+#13
+0'
+1-
+1%
+0,
+01
+10
+#14
+0(
+1.
+1'
+0-
+02
+11
+#15
+0)
+1(
+0.
+12
