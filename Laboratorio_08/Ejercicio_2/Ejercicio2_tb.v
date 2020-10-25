@@ -1,11 +1,8 @@
 //Ejercicio 2
 module testbench();
-
 reg [11:0] P;
 wire [7:0] D;
-
 ROM mem(P,D);
-
 initial
 begin
 #1
@@ -25,7 +22,6 @@ begin
   #5 P = 12'h00A;
   #500 $finish;
 end
-
 initial begin
        $dumpfile("Ejercicio2_tb.vcd");
        $dumpvars(0,testbench);
