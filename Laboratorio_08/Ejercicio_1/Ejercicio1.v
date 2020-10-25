@@ -3,7 +3,7 @@
 module counter_12b(input clk, reset, load, eneable,
                   input [11:0] b,
                   output reg [11:0] c);
-always @ (posedge clk)
+always @ (posedge clk, posedge load)
 begin
     if (reset)
       c <= 12'b0;
