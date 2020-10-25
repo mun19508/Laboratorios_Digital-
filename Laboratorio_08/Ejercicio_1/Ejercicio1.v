@@ -11,10 +11,10 @@ begin
       c <= b;
     if (eneable)
     begin
-      if (c == 12'b111111111111)
+      if (c == 12'hFFFF)
       c <= 12'b0;
     else
-      c <= c + 12'b000000000001;
+      c <= c + 12'h0001;
       end
 end
 endmodule //counter
