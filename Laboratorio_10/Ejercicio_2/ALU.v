@@ -34,5 +34,4 @@ module Circuito2(input [3:0]DataIn, input [2:0] Select, input clk, reset, enTri,
   ALU_aritmetica A1(ACUOut, DataIn, Select, Z, C, ALUOut);
   Buffer4bits busDriver(enTri, ALUOut, DataOut);
   ACU A0(ALUOut, enACU, reset, clk, ACUOut);
-
-endmodule //
+endmodule 
