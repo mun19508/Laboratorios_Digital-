@@ -1,6 +1,6 @@
 //Ejercicio 5: Rom con cases y don't cares
 //Daniel Mundo 19508
-module ROM(input [6:0]direccion, output reg [12:0] valor);
+module DECODE(input [6:0]direccion, output reg [12:0] valor);
 always @ ( direccion ) begin
   casez(direccion)
     7'b??????0 : valor <= 13'b1000000001000;

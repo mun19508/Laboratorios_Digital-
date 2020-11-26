@@ -14,7 +14,7 @@ clk = 0; reset = 1; eneable = 1;
 #10 $finish;
 end //Es el apartado de las pruebas asignadoles valores a las entradas.
 always
-#1 clk = !clk; //Se invierte el valor de clk, para simular una verdadera
+#5 clk = !clk; //Se invierte el valor de clk, para simular una verdadera
               //señal de reloj.
 initial begin
   $dumpfile("Ejercicio2_tb.vcd");
